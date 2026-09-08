@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>融合知识图谱与大语言模型的肺癌癌因性疲乏智能管理系统</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .logo {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            object-fit: cover;
+            background: white;
+            padding: 5px;
+        }
+
+        .header-content {
+            text-align: left;
+        }
+
+        .header h1 {
+            font-size: 1.8em;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+
+        .main-content {
+            display: flex;
+            flex-direction: column;
+            padding: 30px;
+        }
+
+        .query-section {
+            margin-bottom: 30px;
+        }
+
+        .query-input {
+            width: 100%;
+            padding: 15px;
+            font-size: 16px;
+            border: 2px solid #e0e0e0;
+            border-radius: 10px;
+            resize: vertical;
+            font-family: inherit;
+            transition: border-color 0.3s;
+        }
+
+        .query-input:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        .button-group {
+            margin-top: 15px;
+            display: flex;
+            gap: 10px;
+        }
+
+        .btn {
+            padding: 12px 30px;
+            font-size: 16px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-weight: 500;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102,126,234,0.4);
+        }
+
+        .btn-secondary {
+            background: #f0f0f0;
+            color: #333;
+        }
+
+        .btn-secondary:hover {
+            background: #e0e0e0;
+        }
+
+        .results {
+            display: flex;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .left-panel {
+            flex: 2;
+        }
+
+        .right-panel {
+            flex: 1;
+        }
+
+        .card {
+            background: #f8f9fa;
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 20px;
+            border: 1px solid #e0e0e0;
+        }
+
+        .card h3 {
+            color: #667eea;
+            margin-bottom: 15px;
+            font-size: 1.3em;
+            border-left: 4px solid #667eea;
+            padding-left: 12px;
+        }
+
+        .answer-content {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            line-height: 1.6;
+            color: #333;
+            white-space: pre-wrap;
+        }
+
+        .entity-list, .triplet-list, .chunk-list, .ref-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .entity-item, .triplet-item, .chunk-item, .ref-item {
+            background: white;
+            margin-bottom: 10px;
+            padding: 12px;
+            border-radius: 8px;
+            border-left: 3px solid #667eea;
+        }
+
+        .entity-name {
+            font-weight: bold;
+            color: #667eea;
+        }
+
+        .entity-meta {
+            font-size: 0.85em;
+            color: #666;
+            margin-top: 5px;
+        }
+
+        .triplet-relation {
+            color: #764ba2;
+            font-weight: 500;
+        }
+
+        .chunk-content {
+            font-size: 0.9em;
+            line-height: 1.5;
+            color: #555;
+        }
+
+        .chunk-source {
+            font-size: 0.8em;
+            color: #999;
+            margin-top: 8px;
+        }
+
+        .ref-item {
+            font-size: 0.85em;
+            line-height: 1.4;
+            color: #555;
+        }
+
+        .ref-title {
+            font-weight: bold;
+            color: #667eea;
+            margin-bottom: 5px;
+        }
+
+        .ref-detail {
+            font-size: 0.85em;
+            color: #777;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: #667eea;
+            font-size: 1.2em;
+        }
+
+        .error {
+            background: #fee;
+            color: #c33;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        @media (max-width: 768px) {
+            .results {
+                flex-direction: column;
+            }
+            
+            .header {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            .header-content {
+                text-align: center;
+            }
+            
+            .header h1 {
+                font-size: 1.3em;
+            }
+            
+            .main-content {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="/static/logo.png" alt="Logo" class="logo" onerror="this.style.display='none'">
+            <div class="header-content">
+                <h1>🏥 融合知识图谱与大语言模型的肺癌癌因性疲乏智能管理系统</h1>
+                <p>基于知识图谱与检索增强生成的肺癌癌因性疲乏管理助手</p>
+            </div>
+        </div>
+        
+        <div class="main-content">
+            <div class="query-section">
+                <textarea 
+                    id="question" 
+                    class="query-input" 
+                    rows="4" 
+                    placeholder="请输入您的问题，例如：如何缓解肺癌患者的癌因性疲乏？"
+                ></textarea>
+                <div class="button-group">
+                    <button class="btn btn-primary" onclick="submitQuery()">🔍 提交问题</button>
+                    <button class="btn btn-secondary" onclick="clearResults()">🗑️ 清空结果</button>
+                </div>
+            </div>
+            
+            <div id="results" style="display: none;">
+                <div class="results">
+                    <div class="left-panel">
+                        <div class="card">
+                            <h3>💡 LLM 回答</h3>
+                            <div id="answer" class="answer-content"></div>
+                        </div>
+                        
+                        <div class="card">
+                            <h3>📚 相关文本块</h3>
+                            <div id="chunks"></div>
+                        </div>
+                        
+                        <div class="card">
+                            <h3>📖 参考文献</h3>
+                            <div id="references"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="right-panel">
+                        <div class="card">
+                            <h3>🔗 相关实体</h3>
+                            <div id="entities"></div>
+                        </div>
+                        
+                        <div class="card">
+                            <h3>🔀 相关三元组</h3>
+                            <div id="triplets"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="loading" style="display: none;" class="loading">
+                <div>🤔 正在检索知识库并生成回答，请稍候...</div>
+            </div>
+            
+            <div id="error" style="display: none;" class="error"></div>
+        </div>
+    </div>
+    
+    <script>
+        async function submitQuery() {
+            const question = document.getElementById('question').value.trim();
+            
+            if (!question) {
+                showError('请输入问题');
+                return;
+            }
+            
+            // 隐藏结果，显示加载
+            document.getElementById('results').style.display = 'none';
+            document.getElementById('loading').style.display = 'block';
+            document.getElementById('error').style.display = 'none';
+            
+            try {
+                const response = await fetch('/query', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ question: question })
+                });
+                
+                const data = await response.json();
+                
+                if (data.success) {
+                    displayResults(data);
+                    document.getElementById('loading').style.display = 'none';
+                    document.getElementById('results').style.display = 'block';
+                } else {
+                    showError(data.error || '查询失败');
+                }
+            } catch (error) {
+                showError('网络错误：' + error.message);
+            }
+        }
+        
+        function displayResults(data) {
+            // 显示回答
+            document.getElementById('answer').innerHTML = formatAnswer(data.answer);
+            
+            // 显示实体
+            const entitiesDiv = document.getElementById('entities');
+            if (data.entities && data.entities.length > 0) {
+                let html = '<ul class="entity-list">';
+                data.entities.forEach(entity => {
+                    html += `
+                        <li class="entity-item">
+                            <div class="entity-name">${escapeHtml(entity.name)}</div>
+                            <div class="entity-meta">
+                                类型: ${escapeHtml(entity.type)} | 
+                                主题: ${escapeHtml(entity.topic)} | 
+                                相似度: ${entity.score.toFixed(4)}
+                            </div>
+                        </li>
+                    `;
+                });
+                html += '</ul>';
+                entitiesDiv.innerHTML = html;
+            } else {
+                entitiesDiv.innerHTML = '<p>未找到相关实体</p>';
+            }
+            
+            // 显示三元组
+            const tripletsDiv = document.getElementById('triplets');
+            if (data.triplets && data.triplets.length > 0) {
+                let html = '<ul class="triplet-list">';
+                data.triplets.forEach(triplet => {
+                    html += `
+                        <li class="triplet-item">
+                            ${escapeHtml(triplet.source)} 
+                            <span class="triplet-relation">--[${escapeHtml(triplet.relation)}]--></span> 
+                            ${escapeHtml(triplet.target)}
+                        </li>
+                    `;
+                });
+                html += '</ul>';
+                tripletsDiv.innerHTML = html;
+            } else {
+                tripletsDiv.innerHTML = '<p>未找到相关三元组</p>';
+            }
+            
+            // 显示文本块
+            const chunksDiv = document.getElementById('chunks');
+            if (data.chunks && data.chunks.length > 0) {
+                let html = '<ul class="chunk-list">';
+                data.chunks.forEach(chunk => {
+                    // 截取内容，避免过长
+                    let content = chunk.content;
+                    if (content.length > 500) {
+                        content = content.substring(0, 500) + '...';
+                    }
+                    html += `
+                        <li class="chunk-item">
+                            <div class="chunk-content">${escapeHtml(content)}</div>
+                            <div class="chunk-source">📄 文献 ${escapeHtml(chunk.source_paper)}</div>
+                        </li>
+                    `;
+                });
+                html += '</ul>';
+                chunksDiv.innerHTML = html;
+            } else {
+                chunksDiv.innerHTML = '<p>未找到相关文本块</p>';
+            }
+            
+            // 显示参考文献
+            const referencesDiv = document.getElementById('references');
+            if (data.references && data.references.length > 0) {
+                let html = '<ul class="ref-list">';
+                data.references.forEach(ref => {
+                    // 解析参考文献格式
+                    let refText = escapeHtml(ref);
+                    let formattedRef = refText;
+                    
+                    // 如果是期刊文章格式，尝试美化显示
+                    if (refText.includes('.')) {
+                        formattedRef = refText;
+                    }
+                    
+                    html += `
+                        <li class="ref-item">
+                            <div class="ref-detail">${formattedRef}</div>
+                        </li>
+                    `;
+                });
+                html += '</ul>';
+                referencesDiv.innerHTML = html;
+            } else {
+                referencesDiv.innerHTML = '<p>无参考文献</p>';
+            }
+        }
+        
+        function formatAnswer(answer) {
+            // 格式化回答，处理markdown样式的标题
+            let formatted = escapeHtml(answer);
+            
+            // 处理加粗
+            formatted = formatted.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+            
+            // 处理列表项
+            formatted = formatted.replace(/^- (.*?)$/gm, '• $1');
+            formatted = formatted.replace(/^\d+\. (.*?)$/gm, '<strong>$&</strong>');
+            
+            // 处理换行
+            formatted = formatted.replace(/\n/g, '<br>');
+            
+            return formatted;
+        }
+        
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+        
+        function showError(message) {
+            const errorDiv = document.getElementById('error');
+            errorDiv.innerHTML = `❌ ${escapeHtml(message)}`;
+            errorDiv.style.display = 'block';
+            document.getElementById('loading').style.display = 'none';
+            document.getElementById('results').style.display = 'none';
+        }
+        
+        function clearResults() {
+            document.getElementById('question').value = '';
+            document.getElementById('results').style.display = 'none';
+            document.getElementById('error').style.display = 'none';
+            document.getElementById('loading').style.display = 'none';
+        }
+        
+        // 支持回车提交（Ctrl+Enter）
+        document.getElementById('question').addEventListener('keydown', function(e) {
+            if (e.ctrlKey && e.key === 'Enter') {
+                submitQuery();
+            }
+        });
+        
+        // 页面加载完成后的初始化
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('系统已加载，请输入您的问题');
+        });
+    </script>
+</body>
+</html>

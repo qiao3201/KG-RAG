@@ -1,0 +1,2975 @@
+{
+  "nodes": [
+    {
+      "id": "101",
+      "name": "定义",
+      "type": "characteristic",
+      "topic": "疾病特征",
+      "degree": 2
+    },
+    {
+      "id": "102",
+      "name": "与普通疲劳的区别",
+      "type": "characteristic",
+      "topic": "疾病特征",
+      "degree": 2
+    },
+    {
+      "id": "103",
+      "name": "发病率",
+      "type": "characteristic",
+      "topic": "疾病特征",
+      "degree": 2
+    },
+    {
+      "id": "104",
+      "name": "诊断标准",
+      "type": "characteristic",
+      "topic": "疾病特征",
+      "degree": 4
+    },
+    {
+      "id": "105",
+      "name": "治疗目标",
+      "type": "characteristic",
+      "topic": "疾病特征",
+      "degree": 2
+    },
+    {
+      "id": "106",
+      "name": "病理机制",
+      "type": "characteristic",
+      "topic": "疾病特征",
+      "degree": 7
+    },
+    {
+      "id": "107",
+      "name": "细胞因子失调",
+      "type": "factor",
+      "topic": "疾病特征",
+      "degree": 1
+    },
+    {
+      "id": "108",
+      "name": "下丘脑-垂体-肾上腺轴分泌失调",
+      "type": "factor",
+      "topic": "疾病特征",
+      "degree": 1
+    },
+    {
+      "id": "109",
+      "name": "神经递质失调",
+      "type": "factor",
+      "topic": "疾病特征",
+      "degree": 1
+    },
+    {
+      "id": "110",
+      "name": "ATP和肌肉代谢改变",
+      "type": "factor",
+      "topic": "疾病特征",
+      "degree": 1
+    },
+    {
+      "id": "111",
+      "name": "炎症因素",
+      "type": "factor",
+      "topic": "疾病特征",
+      "degree": 1
+    },
+    {
+      "id": "201",
+      "name": "简易疲乏量表 (BFI)",
+      "type": "tool",
+      "topic": "评估工具",
+      "degree": 1
+    },
+    {
+      "id": "202",
+      "name": "视觉模拟量表 (VAS)",
+      "type": "tool",
+      "topic": "评估工具",
+      "degree": 1
+    },
+    {
+      "id": "203",
+      "name": "数值评定量表 (NRS)",
+      "type": "tool",
+      "topic": "评估工具",
+      "degree": 1
+    },
+    {
+      "id": "204",
+      "name": "疲乏日记",
+      "type": "tool",
+      "topic": "评估工具",
+      "degree": 1
+    },
+    {
+      "id": "205",
+      "name": "非药物治疗",
+      "type": "therapy",
+      "topic": "评估工具",
+      "degree": 8
+    },
+    {
+      "id": "206",
+      "name": "药物治疗",
+      "type": "therapy",
+      "topic": "评估工具",
+      "degree": 3
+    },
+    {
+      "id": "207",
+      "name": "社区干预",
+      "type": "therapy",
+      "topic": "评估工具",
+      "degree": 2
+    },
+    {
+      "id": "208",
+      "name": "持续监测评估",
+      "type": "therapy",
+      "topic": "评估工具",
+      "degree": 4
+    },
+    {
+      "id": "209",
+      "name": "合并高风险因素",
+      "type": "factor",
+      "topic": "评估工具",
+      "degree": 5
+    },
+    {
+      "id": "210",
+      "name": "心血管风险高",
+      "type": "indicator",
+      "topic": "评估工具",
+      "degree": 1
+    },
+    {
+      "id": "211",
+      "name": "严重静息肺动脉高压",
+      "type": "indicator",
+      "topic": "评估工具",
+      "degree": 1
+    },
+    {
+      "id": "212",
+      "name": "跌倒风险高",
+      "type": "indicator",
+      "topic": "评估工具",
+      "degree": 1
+    },
+    {
+      "id": "301",
+      "name": "有氧运动",
+      "type": "therapy",
+      "topic": "运动干预",
+      "degree": 14
+    },
+    {
+      "id": "302",
+      "name": "阻力运动",
+      "type": "therapy",
+      "topic": "运动干预",
+      "degree": 12
+    },
+    {
+      "id": "303",
+      "name": "联合运动",
+      "type": "therapy",
+      "topic": "运动干预",
+      "degree": 3
+    },
+    {
+      "id": "304",
+      "name": "禁忌证",
+      "type": "symptom",
+      "topic": "运动干预",
+      "degree": 16
+    },
+    {
+      "id": "305",
+      "name": "运动干预原则",
+      "type": "principle",
+      "topic": "运动干预",
+      "degree": 5
+    },
+    {
+      "id": "306",
+      "name": "中等水平体力活动",
+      "type": "principle",
+      "topic": "运动干预",
+      "degree": 1
+    },
+    {
+      "id": "307",
+      "name": "个体化",
+      "type": "principle",
+      "topic": "运动干预",
+      "degree": 1
+    },
+    {
+      "id": "308",
+      "name": "循序渐进",
+      "type": "principle",
+      "topic": "运动干预",
+      "degree": 1
+    },
+    {
+      "id": "309",
+      "name": "节能原则",
+      "type": "principle",
+      "topic": "运动干预",
+      "degree": 1
+    },
+    {
+      "id": "310",
+      "name": "中国传统养生功",
+      "type": "therapy",
+      "topic": "运动干预",
+      "degree": 3
+    },
+    {
+      "id": "311",
+      "name": "骨转移",
+      "type": "symptom",
+      "topic": "运动干预",
+      "degree": 1
+    },
+    {
+      "id": "312",
+      "name": "血小板减少症",
+      "type": "symptom",
+      "topic": "运动干预",
+      "degree": 1
+    },
+    {
+      "id": "313",
+      "name": "发烧",
+      "type": "symptom",
+      "topic": "运动干预",
+      "degree": 1
+    },
+    {
+      "id": "314",
+      "name": "活动性感染",
+      "type": "symptom",
+      "topic": "运动干预",
+      "degree": 1
+    },
+    {
+      "id": "315",
+      "name": "术后感染",
+      "type": "symptom",
+      "topic": "运动干预",
+      "degree": 1
+    },
+    {
+      "id": "316",
+      "name": "共济失调",
+      "type": "symptom",
+      "topic": "运动干预",
+      "degree": 1
+    },
+    {
+      "id": "317",
+      "name": "病情恶化",
+      "type": "symptom",
+      "topic": "运动干预",
+      "degree": 1
+    },
+    {
+      "id": "318",
+      "name": "术后切口未愈合",
+      "type": "symptom",
+      "topic": "运动干预",
+      "degree": 1
+    },
+    {
+      "id": "319",
+      "name": "有跌倒风险",
+      "type": "indicator",
+      "topic": "运动干预",
+      "degree": 1
+    },
+    {
+      "id": "320",
+      "name": "重度贫血",
+      "type": "indicator",
+      "topic": "运动干预",
+      "degree": 1
+    },
+    {
+      "id": "321",
+      "name": "散步",
+      "type": "symptom",
+      "topic": "运动干预",
+      "degree": 1
+    },
+    {
+      "id": "322",
+      "name": "爬楼",
+      "type": "symptom",
+      "topic": "运动干预",
+      "degree": 1
+    },
+    {
+      "id": "323",
+      "name": "慢跑",
+      "type": "symptom",
+      "topic": "运动干预",
+      "degree": 1
+    },
+    {
+      "id": "324",
+      "name": "游泳",
+      "type": "symptom",
+      "topic": "运动干预",
+      "degree": 1
+    },
+    {
+      "id": "325",
+      "name": "骑行",
+      "type": "symptom",
+      "topic": "运动干预",
+      "degree": 1
+    },
+    {
+      "id": "326",
+      "name": "登山",
+      "type": "symptom",
+      "topic": "运动干预",
+      "degree": 1
+    },
+    {
+      "id": "327",
+      "name": "健身操",
+      "type": "symptom",
+      "topic": "运动干预",
+      "degree": 1
+    },
+    {
+      "id": "328",
+      "name": "瑜伽",
+      "type": "symptom",
+      "topic": "运动干预",
+      "degree": 2
+    },
+    {
+      "id": "329",
+      "name": "快步走",
+      "type": "symptom",
+      "topic": "运动干预",
+      "degree": 1
+    },
+    {
+      "id": "330",
+      "name": "哑铃",
+      "type": "symptom",
+      "topic": "运动干预",
+      "degree": 1
+    },
+    {
+      "id": "331",
+      "name": "弹力带",
+      "type": "symptom",
+      "topic": "运动干预",
+      "degree": 1
+    },
+    {
+      "id": "332",
+      "name": "绳索拉力器",
+      "type": "symptom",
+      "topic": "运动干预",
+      "degree": 1
+    },
+    {
+      "id": "333",
+      "name": "太极拳",
+      "type": "symptom",
+      "topic": "运动干预",
+      "degree": 0
+    },
+    {
+      "id": "334",
+      "name": "八段锦",
+      "type": "symptom",
+      "topic": "运动干预",
+      "degree": 0
+    },
+    {
+      "id": "335",
+      "name": "气功",
+      "type": "symptom",
+      "topic": "运动干预",
+      "degree": 0
+    },
+    {
+      "id": "401",
+      "name": "正常体重",
+      "type": "indicator",
+      "topic": "营养管理",
+      "degree": 5
+    },
+    {
+      "id": "402",
+      "name": "体重过轻",
+      "type": "indicator",
+      "topic": "营养管理",
+      "degree": 8
+    },
+    {
+      "id": "403",
+      "name": "超重或肥胖",
+      "type": "indicator",
+      "topic": "营养管理",
+      "degree": 8
+    },
+    {
+      "id": "404",
+      "name": "营养原则",
+      "type": "principle",
+      "topic": "营养管理",
+      "degree": 7
+    },
+    {
+      "id": "501",
+      "name": "认知行为疗法",
+      "type": "therapy",
+      "topic": "心理干预",
+      "degree": 3
+    },
+    {
+      "id": "502",
+      "name": "正念减压",
+      "type": "therapy",
+      "topic": "心理干预",
+      "degree": 5
+    },
+    {
+      "id": "503",
+      "name": "心理教育疗法",
+      "type": "therapy",
+      "topic": "心理干预",
+      "degree": 2
+    },
+    {
+      "id": "504",
+      "name": "支持性团体疗法",
+      "type": "therapy",
+      "topic": "心理干预",
+      "degree": 4
+    },
+    {
+      "id": "505",
+      "name": "音乐疗法",
+      "type": "therapy",
+      "topic": "心理干预",
+      "degree": 2
+    },
+    {
+      "id": "506",
+      "name": "艺术疗法",
+      "type": "therapy",
+      "topic": "心理干预",
+      "degree": 4
+    },
+    {
+      "id": "507",
+      "name": "家庭情感支持",
+      "type": "therapy",
+      "topic": "心理干预",
+      "degree": 2
+    },
+    {
+      "id": "508",
+      "name": "静坐冥想",
+      "type": "therapy",
+      "topic": "心理干预",
+      "degree": 1
+    },
+    {
+      "id": "509",
+      "name": "步行冥想",
+      "type": "therapy",
+      "topic": "心理干预",
+      "degree": 1
+    },
+    {
+      "id": "510",
+      "name": "洞察力冥想",
+      "type": "therapy",
+      "topic": "心理干预",
+      "degree": 1
+    },
+    {
+      "id": "511",
+      "name": "面对面或在线支持小组",
+      "type": "therapy",
+      "topic": "心理干预",
+      "degree": 1
+    },
+    {
+      "id": "512",
+      "name": "咨询",
+      "type": "therapy",
+      "topic": "心理干预",
+      "degree": 1
+    },
+    {
+      "id": "513",
+      "name": "日志写作",
+      "type": "therapy",
+      "topic": "心理干预",
+      "degree": 1
+    },
+    {
+      "id": "514",
+      "name": "参加音乐活动",
+      "type": "therapy",
+      "topic": "心理干预",
+      "degree": 1
+    },
+    {
+      "id": "515",
+      "name": "粘土",
+      "type": "therapy",
+      "topic": "心理干预",
+      "degree": 1
+    },
+    {
+      "id": "516",
+      "name": "贴画",
+      "type": "therapy",
+      "topic": "心理干预",
+      "degree": 1
+    },
+    {
+      "id": "517",
+      "name": "画画",
+      "type": "therapy",
+      "topic": "心理干预",
+      "degree": 1
+    },
+    {
+      "id": "518",
+      "name": "加强家庭的陪伴，多与患者沟通",
+      "type": "therapy",
+      "topic": "心理干预",
+      "degree": 1
+    },
+    {
+      "id": "601",
+      "name": "自评睡眠问题",
+      "type": "therapy",
+      "topic": "睡眠管理",
+      "degree": 6
+    },
+    {
+      "id": "602",
+      "name": "睡眠限制疗法",
+      "type": "therapy",
+      "topic": "睡眠管理",
+      "degree": 1
+    },
+    {
+      "id": "603",
+      "name": "亮白光疗法",
+      "type": "therapy",
+      "topic": "睡眠管理",
+      "degree": 1
+    },
+    {
+      "id": "604",
+      "name": "芳香疗法",
+      "type": "therapy",
+      "topic": "睡眠管理",
+      "degree": 5
+    },
+    {
+      "id": "605",
+      "name": "睡眠环境",
+      "type": "therapy",
+      "topic": "睡眠管理",
+      "degree": 4
+    },
+    {
+      "id": "606",
+      "name": "睡前禁忌",
+      "type": "therapy",
+      "topic": "睡眠管理",
+      "degree": 5
+    },
+    {
+      "id": "607",
+      "name": "日间活动",
+      "type": "therapy",
+      "topic": "睡眠管理",
+      "degree": 3
+    },
+    {
+      "id": "608",
+      "name": "心理压力",
+      "type": "indicator",
+      "topic": "睡眠管理",
+      "degree": 1
+    },
+    {
+      "id": "609",
+      "name": "不良生活习惯",
+      "type": "factor",
+      "topic": "睡眠管理",
+      "degree": 1
+    },
+    {
+      "id": "701",
+      "name": "针法",
+      "type": "therapy",
+      "topic": "物理疗法",
+      "degree": 5
+    },
+    {
+      "id": "702",
+      "name": "灸法",
+      "type": "therapy",
+      "topic": "物理疗法",
+      "degree": 6
+    },
+    {
+      "id": "703",
+      "name": "中药足浴",
+      "type": "therapy",
+      "topic": "物理疗法",
+      "degree": 4
+    },
+    {
+      "id": "704",
+      "name": "毫针刺法",
+      "type": "therapy",
+      "topic": "物理疗法",
+      "degree": 1
+    },
+    {
+      "id": "705",
+      "name": "穴位埋线",
+      "type": "therapy",
+      "topic": "物理疗法",
+      "degree": 1
+    },
+    {
+      "id": "706",
+      "name": "电针",
+      "type": "therapy",
+      "topic": "物理疗法",
+      "degree": 1
+    },
+    {
+      "id": "707",
+      "name": "耳针疗法",
+      "type": "therapy",
+      "topic": "物理疗法",
+      "degree": 1
+    },
+    {
+      "id": "708",
+      "name": "艾灸",
+      "type": "therapy",
+      "topic": "物理疗法",
+      "degree": 1
+    },
+    {
+      "id": "709",
+      "name": "隔药灸",
+      "type": "therapy",
+      "topic": "物理疗法",
+      "degree": 1
+    },
+    {
+      "id": "710",
+      "name": "督灸",
+      "type": "therapy",
+      "topic": "物理疗法",
+      "degree": 1
+    },
+    {
+      "id": "711",
+      "name": "雷火灸",
+      "type": "therapy",
+      "topic": "物理疗法",
+      "degree": 1
+    },
+    {
+      "id": "1",
+      "name": "癌因性疲乏",
+      "type": "symptom",
+      "topic": "疾病特征",
+      "degree": 19
+    },
+    {
+      "id": "2",
+      "name": "贫血",
+      "type": "symptom",
+      "topic": "评估工具",
+      "degree": 2
+    },
+    {
+      "id": "3",
+      "name": "轻度疲乏",
+      "type": "indicator",
+      "topic": "运动干预",
+      "degree": 4
+    },
+    {
+      "id": "4",
+      "name": "中度疲乏",
+      "type": "indicator",
+      "topic": "营养管理",
+      "degree": 5
+    },
+    {
+      "id": "5",
+      "name": "重度疲乏",
+      "type": "indicator",
+      "topic": "心理干预",
+      "degree": 6
+    },
+    {
+      "id": "6",
+      "name": "疼痛",
+      "type": "symptom",
+      "topic": "睡眠管理",
+      "degree": 1
+    },
+    {
+      "id": "7",
+      "name": "悲伤",
+      "type": "symptom",
+      "topic": "物理疗法",
+      "degree": 1
+    },
+    {
+      "id": "8",
+      "name": "睡眠障碍",
+      "type": "symptom",
+      "topic": "主题8",
+      "degree": 1
+    },
+    {
+      "id": "9",
+      "name": "运动干预",
+      "type": "therapy",
+      "topic": "主题9",
+      "degree": 8
+    },
+    {
+      "id": "10",
+      "name": "心理干预",
+      "type": "therapy",
+      "topic": "疾病特征",
+      "degree": 9
+    },
+    {
+      "id": "11",
+      "name": "营养管理",
+      "type": "therapy",
+      "topic": "疾病特征",
+      "degree": 5
+    },
+    {
+      "id": "12",
+      "name": "物理疗法",
+      "type": "therapy",
+      "topic": "疾病特征",
+      "degree": 5
+    },
+    {
+      "id": "13",
+      "name": "睡眠管理",
+      "type": "therapy",
+      "topic": "疾病特征",
+      "degree": 9
+    },
+    {
+      "id": "14",
+      "name": "穴位按摩",
+      "type": "therapy",
+      "topic": "疾病特征",
+      "degree": 6
+    },
+    {
+      "id": "15",
+      "name": "术后伤口疼痛",
+      "type": "symptom",
+      "topic": "疾病特征",
+      "degree": 1
+    },
+    {
+      "id": "16",
+      "name": "咳嗽",
+      "type": "symptom",
+      "topic": "疾病特征",
+      "degree": 1
+    },
+    {
+      "id": "17",
+      "name": "呼吸困难",
+      "type": "symptom",
+      "topic": "疾病特征",
+      "degree": 1
+    },
+    {
+      "id": "112",
+      "name": "癌因性疲乏（cancer related fatigue，CRF）是癌症幸存者普遍存在的症状之一，是一种令人痛苦的、持续的，患者主观感受到的身体、情绪和 / 或认知的疲劳",
+      "type": "addition",
+      "topic": "疾病特征",
+      "degree": 1
+    },
+    {
+      "id": "113",
+      "name": "这种疲劳或与癌症或癌症治疗相关，与近期的活动不成比例，并干扰正常生活，不太可能通过休息或睡眠缓解",
+      "type": "addition",
+      "topic": "疾病特征",
+      "degree": 1
+    },
+    {
+      "id": "114",
+      "name": "总体发病率维持在49%~52%，亚洲地区高达 55.7%，即使在治疗结束后的 5~7 年，仍有48.5% 的癌症幸存者持续报告这种疲劳感。",
+      "type": "addition",
+      "topic": "疾病特征",
+      "degree": 1
+    },
+    {
+      "id": "115",
+      "name": "在当前的活动水平下，出现显著的疲劳感、乏力或需更多休息，亦或有不成比例的变化，且有以下5 项及以上症状：①全身乏力或肢体沉重；②注意力难以集中；③情绪低落，兴趣减退；④失眠或嗜睡；⑤睡后精力未恢复；⑥活动困难；⑦情绪反应导致疲乏，如悲伤、挫败或易怒；⑧无法完成以往能胜任的日常活动；⑨短期记忆减退；⑩疲乏症状持续数小时不缓解。  ",
+      "type": "addition",
+      "topic": "疾病特征",
+      "degree": 0
+    },
+    {
+      "id": "116",
+      "name": "临床症状显著干扰患者的社交、职业或其他关键生活领域并带来明显不便和损害",
+      "type": "addition",
+      "topic": "疾病特征",
+      "degree": 1
+    },
+    {
+      "id": "117",
+      "name": "有既往史、体检及实验室检查等，证实 CRF症状是由癌症或其治疗所引起",
+      "type": "addition",
+      "topic": "疾病特征",
+      "degree": 1
+    },
+    {
+      "id": "118",
+      "name": "CRF 症状并非主要由肿瘤及其治疗伴随的精神障碍，如重度抑郁、躯体性疾患或谵妄所致",
+      "type": "addition",
+      "topic": "疾病特征",
+      "degree": 1
+    },
+    {
+      "id": "119",
+      "name": "注重从身体、心理、社会和精神等多方面来关怀CRF 患者，提升患者的生活质量",
+      "type": "addition",
+      "topic": "疾病特征",
+      "degree": 1
+    },
+    {
+      "id": "213",
+      "name": "评分0分",
+      "type": "addition",
+      "topic": "评估工具",
+      "degree": 0
+    },
+    {
+      "id": "214",
+      "name": "评分1～3分",
+      "type": "addition",
+      "topic": "评估工具",
+      "degree": 1
+    },
+    {
+      "id": "215",
+      "name": "评分4～6分",
+      "type": "addition",
+      "topic": "评估工具",
+      "degree": 1
+    },
+    {
+      "id": "216",
+      "name": "评分7～10分",
+      "type": "addition",
+      "topic": "评估工具",
+      "degree": 1
+    },
+    {
+      "id": "217",
+      "name": "转诊至相关医疗机构",
+      "type": "addition",
+      "topic": "评估工具",
+      "degree": 2
+    },
+    {
+      "id": "218",
+      "name": "是否存在疲劳",
+      "type": "addition",
+      "topic": "评估工具",
+      "degree": 1
+    },
+    {
+      "id": "219",
+      "name": "疲劳的严重程度",
+      "type": "addition",
+      "topic": "评估工具",
+      "degree": 1
+    },
+    {
+      "id": "220",
+      "name": "持续至生存期、终末期",
+      "type": "addition",
+      "topic": "评估工具",
+      "degree": 1
+    },
+    {
+      "id": "221",
+      "name": "精神科医师指导下使用",
+      "type": "addition",
+      "topic": "评估工具",
+      "degree": 1
+    },
+    {
+      "id": "336",
+      "name": "通用建议：多动，少坐",
+      "type": "addition",
+      "topic": "运动干预",
+      "degree": 1
+    },
+    {
+      "id": "337",
+      "name": "特殊人群建议:肺癌患者术后全身运动强度建议为最大心率的20%-59%",
+      "type": "addition",
+      "topic": "运动干预",
+      "degree": 1
+    },
+    {
+      "id": "338",
+      "name": "运动时长：初始10-20分钟/次，逐渐增至 30-40分钟/次",
+      "type": "addition",
+      "topic": "运动干预",
+      "degree": 1
+    },
+    {
+      "id": "339",
+      "name": "运动频率：每周2-5次",
+      "type": "addition",
+      "topic": "运动干预",
+      "degree": 1
+    },
+    {
+      "id": "340",
+      "name": "运动强度:最大心率的 65%、最大摄氧量的 45%，RPE12 ",
+      "type": "addition",
+      "topic": "运动干预",
+      "degree": 0
+    },
+    {
+      "id": "341",
+      "name": "运动周期：至少持续12周",
+      "type": "addition",
+      "topic": "运动干预",
+      "degree": 2
+    },
+    {
+      "id": "342",
+      "name": "主要获益：改善情绪健康、身体能力感知、社会功能",
+      "type": "addition",
+      "topic": "运动干预",
+      "degree": 1
+    },
+    {
+      "id": "343",
+      "name": "运动频率：每周2-3次",
+      "type": "addition",
+      "topic": "运动干预",
+      "degree": 1
+    },
+    {
+      "id": "344",
+      "name": "运动时长：5-10分钟/次",
+      "type": "addition",
+      "topic": "运动干预",
+      "degree": 1
+    },
+    {
+      "id": "345",
+      "name": "运动强度：最大可举重量60%， RPE 12",
+      "type": "addition",
+      "topic": "运动干预",
+      "degree": 1
+    },
+    {
+      "id": "346",
+      "name": "训练内容：8-10个主要肌肉群，每组8-10次，重复2组",
+      "type": "addition",
+      "topic": "运动干预",
+      "degree": 1
+    },
+    {
+      "id": "347",
+      "name": "主要获益：维护和重建肌肉力量",
+      "type": "addition",
+      "topic": "运动干预",
+      "degree": 1
+    },
+    {
+      "id": "348",
+      "name": "主要获益：改善短期生活质量",
+      "type": "addition",
+      "topic": "运动干预",
+      "degree": 1
+    },
+    {
+      "id": "349",
+      "name": "主要获益：在改善疲劳方面作用优于单纯有氧运动",
+      "type": "addition",
+      "topic": "运动干预",
+      "degree": 1
+    },
+    {
+      "id": "350",
+      "name": "定义:有氧运动结合阻力训练",
+      "type": "addition",
+      "topic": "运动干预",
+      "degree": 1
+    },
+    {
+      "id": "351",
+      "name": "主要获益：对降低焦虑作用明显",
+      "type": "addition",
+      "topic": "运动干预",
+      "degree": 1
+    },
+    {
+      "id": "352",
+      "name": "运动时长：30-60分钟/次",
+      "type": "addition",
+      "topic": "运动干预",
+      "degree": 1
+    },
+    {
+      "id": "353",
+      "name": "作用机制：调和气血、平衡阴阳",
+      "type": "addition",
+      "topic": "运动干预",
+      "degree": 1
+    },
+    {
+      "id": "354",
+      "name": "主要获益：对改善CRF具有积极作用",
+      "type": "addition",
+      "topic": "运动干预",
+      "degree": 1
+    },
+    {
+      "id": "355",
+      "name": "高冲击力动作",
+      "type": "addition",
+      "topic": "运动干预",
+      "degree": 1
+    },
+    {
+      "id": "356",
+      "name": "躯干过度前屈或后伸",
+      "type": "addition",
+      "topic": "运动干预",
+      "degree": 1
+    },
+    {
+      "id": "357",
+      "name": "躯干屈伸时附加阻力",
+      "type": "addition",
+      "topic": "运动干预",
+      "degree": 1
+    },
+    {
+      "id": "358",
+      "name": "动态扭转",
+      "type": "addition",
+      "topic": "运动干预",
+      "degree": 1
+    },
+    {
+      "id": "405",
+      "name": "BMI ：18.5～23.9 kg/m²",
+      "type": "addition",
+      "topic": "营养管理",
+      "degree": 1
+    },
+    {
+      "id": "406",
+      "name": "BMI < 18.5 kg/m²",
+      "type": "addition",
+      "topic": "营养管理",
+      "degree": 1
+    },
+    {
+      "id": "407",
+      "name": "超重：BMI ≥ 24 kg/m²",
+      "type": "addition",
+      "topic": "营养管理",
+      "degree": 1
+    },
+    {
+      "id": "408",
+      "name": "肥胖：BMI ≥ 28 kg/m²",
+      "type": "addition",
+      "topic": "营养管理",
+      "degree": 1
+    },
+    {
+      "id": "409",
+      "name": "食物多样，合理搭配",
+      "type": "addition",
+      "topic": "营养管理",
+      "degree": 1
+    },
+    {
+      "id": "410",
+      "name": "每天至少12种食物",
+      "type": "addition",
+      "topic": "营养管理",
+      "degree": 1
+    },
+    {
+      "id": "411",
+      "name": "每周至少25种食物",
+      "type": "addition",
+      "topic": "营养管理",
+      "degree": 1
+    },
+    {
+      "id": "412",
+      "name": "热量摄入104.60～125.52 kJ/(kg·d)",
+      "type": "addition",
+      "topic": "营养管理",
+      "degree": 1
+    },
+    {
+      "id": "413",
+      "name": "蛋白质摄入1.2～2.0 g/(kg·d)",
+      "type": "addition",
+      "topic": "营养管理",
+      "degree": 1
+    },
+    {
+      "id": "414",
+      "name": "脂肪摄入一般不超过总能量的30%",
+      "type": "addition",
+      "topic": "营养管理",
+      "degree": 1
+    },
+    {
+      "id": "415",
+      "name": "维持正常体重",
+      "type": "addition",
+      "topic": "营养管理",
+      "degree": 1
+    },
+    {
+      "id": "416",
+      "name": "限制或禁止酒精摄入",
+      "type": "addition",
+      "topic": "营养管理",
+      "degree": 1
+    },
+    {
+      "id": "417",
+      "name": "避免低营养食物",
+      "type": "addition",
+      "topic": "营养管理",
+      "degree": 4
+    },
+    {
+      "id": "418",
+      "name": "饮料",
+      "type": "addition",
+      "topic": "营养管理",
+      "degree": 1
+    },
+    {
+      "id": "419",
+      "name": "含糖甜点",
+      "type": "addition",
+      "topic": "营养管理",
+      "degree": 1
+    },
+    {
+      "id": "420",
+      "name": "油炸食品",
+      "type": "addition",
+      "topic": "营养管理",
+      "degree": 1
+    },
+    {
+      "id": "421",
+      "name": "通过饮食运动管理达到正常体重",
+      "type": "addition",
+      "topic": "营养管理",
+      "degree": 2
+    },
+    {
+      "id": "422",
+      "name": "调整饮食配合适量运动",
+      "type": "addition",
+      "topic": "营养管理",
+      "degree": 1
+    },
+    {
+      "id": "423",
+      "name": "避免油腻食物",
+      "type": "addition",
+      "topic": "营养管理",
+      "degree": 1
+    },
+    {
+      "id": "424",
+      "name": "避免高脂食物",
+      "type": "addition",
+      "topic": "营养管理",
+      "degree": 1
+    },
+    {
+      "id": "425",
+      "name": "避免过咸食物",
+      "type": "addition",
+      "topic": "营养管理",
+      "degree": 1
+    },
+    {
+      "id": "427",
+      "name": "少食多餐",
+      "type": "addition",
+      "topic": "营养管理",
+      "degree": 1
+    },
+    {
+      "id": "428",
+      "name": "高营养食物",
+      "type": "addition",
+      "topic": "营养管理",
+      "degree": 0
+    },
+    {
+      "id": "429",
+      "name": "高热量食物",
+      "type": "addition",
+      "topic": "营养管理",
+      "degree": 1
+    },
+    {
+      "id": "430",
+      "name": "摄入热量：188.28 kJ/(kg·d)",
+      "type": "addition",
+      "topic": "营养管理",
+      "degree": 1
+    },
+    {
+      "id": "433",
+      "name": "避免进餐前或进食中摄入过多液体",
+      "type": "addition",
+      "topic": "营养管理",
+      "degree": 1
+    },
+    {
+      "id": "434",
+      "name": "牛油果",
+      "type": "addition",
+      "topic": "营养管理",
+      "degree": 1
+    },
+    {
+      "id": "435",
+      "name": "坚果",
+      "type": "addition",
+      "topic": "营养管理",
+      "degree": 1
+    },
+    {
+      "id": "519",
+      "name": "作用机制：改变患者对疾病症状的错误想法",
+      "type": "addition",
+      "topic": "心理干预",
+      "degree": 1
+    },
+    {
+      "id": "520",
+      "name": "作用目标：提高应对症状的自我效能",
+      "type": "addition",
+      "topic": "心理干预",
+      "degree": 1
+    },
+    {
+      "id": "521",
+      "name": "主要内容：压力管理信息，健康生活信息",
+      "type": "addition",
+      "topic": "心理干预",
+      "degree": 1
+    },
+    {
+      "id": "522",
+      "name": "寻求专业心理治疗师帮助",
+      "type": "addition",
+      "topic": "心理干预",
+      "degree": 1
+    },
+    {
+      "id": "610",
+      "name": "安静舒适",
+      "type": "addition",
+      "topic": "睡眠管理",
+      "degree": 1
+    },
+    {
+      "id": "611",
+      "name": "光线适宜",
+      "type": "addition",
+      "topic": "睡眠管理",
+      "degree": 1
+    },
+    {
+      "id": "612",
+      "name": "温度适宜",
+      "type": "addition",
+      "topic": "睡眠管理",
+      "degree": 1
+    },
+    {
+      "id": "613",
+      "name": "饮用咖啡、浓茶、酒精",
+      "type": "addition",
+      "topic": "睡眠管理",
+      "degree": 1
+    },
+    {
+      "id": "614",
+      "name": "剧烈运动",
+      "type": "addition",
+      "topic": "睡眠管理",
+      "degree": 1
+    },
+    {
+      "id": "615",
+      "name": "大吃大喝",
+      "type": "addition",
+      "topic": "睡眠管理",
+      "degree": 1
+    },
+    {
+      "id": "616",
+      "name": "看容易兴奋的书籍或节目",
+      "type": "addition",
+      "topic": "睡眠管理",
+      "degree": 1
+    },
+    {
+      "id": "617",
+      "name": "接受一定时间太阳照射",
+      "type": "addition",
+      "topic": "睡眠管理",
+      "degree": 1
+    },
+    {
+      "id": "618",
+      "name": "避免长时间待在室内",
+      "type": "addition",
+      "topic": "睡眠管理",
+      "degree": 1
+    },
+    {
+      "id": "619",
+      "name": "主要形式：中药香囊贴敷",
+      "type": "addition",
+      "topic": "睡眠管理",
+      "degree": 1
+    },
+    {
+      "id": "620",
+      "name": "操作部位：神阙穴",
+      "type": "addition",
+      "topic": "睡眠管理",
+      "degree": 1
+    },
+    {
+      "id": "621",
+      "name": "操作时间：每晚睡前贴敷，次日晨起取下",
+      "type": "addition",
+      "topic": "睡眠管理",
+      "degree": 1
+    },
+    {
+      "id": "622",
+      "name": "香囊材料",
+      "type": "addition",
+      "topic": "睡眠管理",
+      "degree": 10
+    },
+    {
+      "id": "623",
+      "name": "艾叶",
+      "type": "addition",
+      "topic": "睡眠管理",
+      "degree": 1
+    },
+    {
+      "id": "624",
+      "name": "藿香",
+      "type": "addition",
+      "topic": "睡眠管理",
+      "degree": 1
+    },
+    {
+      "id": "431",
+      "name": "高营养食物",
+      "type": "addition",
+      "topic": "营养管理",
+      "degree": 0
+    },
+    {
+      "id": "432",
+      "name": "高营养食物",
+      "type": "addition",
+      "topic": "营养管理",
+      "degree": 3
+    },
+    {
+      "id": "625",
+      "name": "合欢",
+      "type": "addition",
+      "topic": "睡眠管理",
+      "degree": 1
+    },
+    {
+      "id": "626",
+      "name": "远志",
+      "type": "addition",
+      "topic": "睡眠管理",
+      "degree": 1
+    },
+    {
+      "id": "627",
+      "name": "薰衣草",
+      "type": "addition",
+      "topic": "睡眠管理",
+      "degree": 1
+    },
+    {
+      "id": "628",
+      "name": "木香",
+      "type": "addition",
+      "topic": "睡眠管理",
+      "degree": 1
+    },
+    {
+      "id": "629",
+      "name": "白芷",
+      "type": "addition",
+      "topic": "睡眠管理",
+      "degree": 1
+    },
+    {
+      "id": "630",
+      "name": "佩兰",
+      "type": "addition",
+      "topic": "睡眠管理",
+      "degree": 1
+    },
+    {
+      "id": "631",
+      "name": "冰片",
+      "type": "addition",
+      "topic": "睡眠管理",
+      "degree": 1
+    },
+    {
+      "id": "712",
+      "name": "主要功效：改善焦虑、抑郁，缓解疲劳症状",
+      "type": "addition",
+      "topic": "物理疗法",
+      "degree": 1
+    },
+    {
+      "id": "713",
+      "name": "主要功效：缓解骨骼肌疲劳，缓解主观疲劳感，调节精神与心理状态，调补气血",
+      "type": "addition",
+      "topic": "物理疗法",
+      "degree": 1
+    },
+    {
+      "id": "714",
+      "name": "操作循行经络：督脉，膀胱经，阳明经 ",
+      "type": "addition",
+      "topic": "物理疗法",
+      "degree": 0
+    },
+    {
+      "id": "715",
+      "name": "取穴",
+      "type": "addition",
+      "topic": "物理疗法",
+      "degree": 7
+    },
+    {
+      "id": "716",
+      "name": "合谷",
+      "type": "addition",
+      "topic": "物理疗法",
+      "degree": 1
+    },
+    {
+      "id": "717",
+      "name": "内关",
+      "type": "addition",
+      "topic": "物理疗法",
+      "degree": 1
+    },
+    {
+      "id": "718",
+      "name": "曲池",
+      "type": "addition",
+      "topic": "物理疗法",
+      "degree": 1
+    },
+    {
+      "id": "719",
+      "name": "足三里",
+      "type": "addition",
+      "topic": "物理疗法",
+      "degree": 1
+    },
+    {
+      "id": "720",
+      "name": "阳陵泉",
+      "type": "addition",
+      "topic": "物理疗法",
+      "degree": 1
+    },
+    {
+      "id": "721",
+      "name": "三阴交",
+      "type": "addition",
+      "topic": "物理疗法",
+      "degree": 1
+    },
+    {
+      "id": "722",
+      "name": "主要功效：使人体各组织、各脏腑的气血运行通畅",
+      "type": "addition",
+      "topic": "物理疗法",
+      "degree": 1
+    },
+    {
+      "id": "723",
+      "name": "主要功效：提高新陈代谢和免疫功能",
+      "type": "addition",
+      "topic": "物理疗法",
+      "degree": 1
+    },
+    {
+      "id": "724",
+      "name": "主要功效：达到预防、治疗及促进康复的功效",
+      "type": "addition",
+      "topic": "物理疗法",
+      "degree": 1
+    },
+    {
+      "id": "725",
+      "name": "注意事项：应仔细检查、评估患者骨质情况",
+      "type": "addition",
+      "topic": "物理疗法",
+      "degree": 1
+    },
+    {
+      "id": "726",
+      "name": "禁忌症：癌症骨转移患者",
+      "type": "addition",
+      "topic": "物理疗法",
+      "degree": 1
+    }
+  ],
+  "edges": [
+    {
+      "source": "101",
+      "target": "1",
+      "relation": "CH_OF",
+      "source_chunk": "101"
+    },
+    {
+      "source": "101",
+      "target": "112",
+      "relation": "IS",
+      "source_chunk": "101"
+    },
+    {
+      "source": "102",
+      "target": "1",
+      "relation": "CH_OF",
+      "source_chunk": "101"
+    },
+    {
+      "source": "102",
+      "target": "113",
+      "relation": "IS",
+      "source_chunk": "101"
+    },
+    {
+      "source": "103",
+      "target": "1",
+      "relation": "CH_OF",
+      "source_chunk": "102"
+    },
+    {
+      "source": "103",
+      "target": "114",
+      "relation": "CONTAIN",
+      "source_chunk": "102"
+    },
+    {
+      "source": "104",
+      "target": "1",
+      "relation": "CH_OF",
+      "source_chunk": "103"
+    },
+    {
+      "source": "104",
+      "target": "116",
+      "relation": "CONTAIN",
+      "source_chunk": "105"
+    },
+    {
+      "source": "104",
+      "target": "117",
+      "relation": "CONTAIN",
+      "source_chunk": "105"
+    },
+    {
+      "source": "104",
+      "target": "118",
+      "relation": "CONTAIN",
+      "source_chunk": "105"
+    },
+    {
+      "source": "105",
+      "target": "1",
+      "relation": "CH_OF",
+      "source_chunk": "106"
+    },
+    {
+      "source": "105",
+      "target": "119",
+      "relation": "CONTAIN",
+      "source_chunk": "106"
+    },
+    {
+      "source": "106",
+      "target": "1",
+      "relation": "CH_OF",
+      "source_chunk": "107"
+    },
+    {
+      "source": "106",
+      "target": "2",
+      "relation": "CONTAIN",
+      "source_chunk": "107"
+    },
+    {
+      "source": "106",
+      "target": "107",
+      "relation": "CONTAIN",
+      "source_chunk": "107"
+    },
+    {
+      "source": "106",
+      "target": "108",
+      "relation": "CONTAIN",
+      "source_chunk": "107"
+    },
+    {
+      "source": "106",
+      "target": "109",
+      "relation": "CONTAIN",
+      "source_chunk": "107"
+    },
+    {
+      "source": "106",
+      "target": "110",
+      "relation": "CONTAIN",
+      "source_chunk": "107"
+    },
+    {
+      "source": "106",
+      "target": "111",
+      "relation": "CONTAIN",
+      "source_chunk": "108"
+    },
+    {
+      "source": "201",
+      "target": "1",
+      "relation": "SE_OF",
+      "source_chunk": "201"
+    },
+    {
+      "source": "202",
+      "target": "1",
+      "relation": "SE_OF",
+      "source_chunk": "201"
+    },
+    {
+      "source": "203",
+      "target": "1",
+      "relation": "SE_OF",
+      "source_chunk": "201"
+    },
+    {
+      "source": "204",
+      "target": "1",
+      "relation": "SE_OF",
+      "source_chunk": "201"
+    },
+    {
+      "source": "205",
+      "target": "9",
+      "relation": "CONTAIN",
+      "source_chunk": "204"
+    },
+    {
+      "source": "205",
+      "target": "10",
+      "relation": "CONTAIN",
+      "source_chunk": "204"
+    },
+    {
+      "source": "205",
+      "target": "11",
+      "relation": "CONTAIN",
+      "source_chunk": "204"
+    },
+    {
+      "source": "205",
+      "target": "12",
+      "relation": "CONTAIN",
+      "source_chunk": "702"
+    },
+    {
+      "source": "205",
+      "target": "13",
+      "relation": "CONTAIN",
+      "source_chunk": "204"
+    },
+    {
+      "source": "205",
+      "target": "3",
+      "relation": "RE_FOR",
+      "source_chunk": "204"
+    },
+    {
+      "source": "205",
+      "target": "4",
+      "relation": "RE_FOR",
+      "source_chunk": "204"
+    },
+    {
+      "source": "205",
+      "target": "5",
+      "relation": "RE_FOR",
+      "source_chunk": "204"
+    },
+    {
+      "source": "206",
+      "target": "4",
+      "relation": "RE_FOR",
+      "source_chunk": "204"
+    },
+    {
+      "source": "206",
+      "target": "5",
+      "relation": "RE_FOR",
+      "source_chunk": "204"
+    },
+    {
+      "source": "206",
+      "target": "221",
+      "relation": "RE_FOR",
+      "source_chunk": "203"
+    },
+    {
+      "source": "207",
+      "target": "3",
+      "relation": "RE_FOR",
+      "source_chunk": "204"
+    },
+    {
+      "source": "207",
+      "target": "4",
+      "relation": "RE_FOR",
+      "source_chunk": "204"
+    },
+    {
+      "source": "208",
+      "target": "1",
+      "relation": "RE_FOR",
+      "source_chunk": "204"
+    },
+    {
+      "source": "208",
+      "target": "218",
+      "relation": "CONTAIN",
+      "source_chunk": "206"
+    },
+    {
+      "source": "208",
+      "target": "219",
+      "relation": "CONTAIN",
+      "source_chunk": "206"
+    },
+    {
+      "source": "208",
+      "target": "220",
+      "relation": "CONTAIN",
+      "source_chunk": "206"
+    },
+    {
+      "source": "209",
+      "target": "217",
+      "relation": "RE_FOR",
+      "source_chunk": "205"
+    },
+    {
+      "source": "209",
+      "target": "1",
+      "relation": "FA_OF",
+      "source_chunk": "205"
+    },
+    {
+      "source": "209",
+      "target": "210",
+      "relation": "CONTAIN",
+      "source_chunk": "205"
+    },
+    {
+      "source": "209",
+      "target": "211",
+      "relation": "CONTAIN",
+      "source_chunk": "205"
+    },
+    {
+      "source": "209",
+      "target": "212",
+      "relation": "CONTAIN",
+      "source_chunk": "205"
+    },
+    {
+      "source": "301",
+      "target": "9",
+      "relation": "CONTAIN",
+      "source_chunk": "303"
+    },
+    {
+      "source": "301",
+      "target": "338",
+      "relation": "RE_FOR",
+      "source_chunk": "302"
+    },
+    {
+      "source": "301",
+      "target": "339",
+      "relation": "RE_FOR",
+      "source_chunk": "302"
+    },
+    {
+      "source": "301",
+      "target": "341",
+      "relation": "RE_FOR",
+      "source_chunk": "302"
+    },
+    {
+      "source": "301",
+      "target": "342",
+      "relation": "OF",
+      "source_chunk": "305"
+    },
+    {
+      "source": "301",
+      "target": "321",
+      "relation": "CONTAIN",
+      "source_chunk": "303"
+    },
+    {
+      "source": "301",
+      "target": "322",
+      "relation": "CONTAIN",
+      "source_chunk": "303"
+    },
+    {
+      "source": "301",
+      "target": "323",
+      "relation": "CONTAIN",
+      "source_chunk": "303"
+    },
+    {
+      "source": "301",
+      "target": "324",
+      "relation": "CONTAIN",
+      "source_chunk": "303"
+    },
+    {
+      "source": "301",
+      "target": "325",
+      "relation": "CONTAIN",
+      "source_chunk": "303"
+    },
+    {
+      "source": "301",
+      "target": "326",
+      "relation": "CONTAIN",
+      "source_chunk": "303"
+    },
+    {
+      "source": "301",
+      "target": "327",
+      "relation": "CONTAIN",
+      "source_chunk": "303"
+    },
+    {
+      "source": "301",
+      "target": "328",
+      "relation": "CONTAIN",
+      "source_chunk": "303"
+    },
+    {
+      "source": "301",
+      "target": "329",
+      "relation": "CONTAIN",
+      "source_chunk": "303"
+    },
+    {
+      "source": "302",
+      "target": "9",
+      "relation": "CONTAIN",
+      "source_chunk": "300"
+    },
+    {
+      "source": "302",
+      "target": "343",
+      "relation": "RE_FOR",
+      "source_chunk": "310"
+    },
+    {
+      "source": "302",
+      "target": "344",
+      "relation": "RE_FOR",
+      "source_chunk": "310"
+    },
+    {
+      "source": "302",
+      "target": "345",
+      "relation": "RE_FOR",
+      "source_chunk": "310"
+    },
+    {
+      "source": "302",
+      "target": "346",
+      "relation": "RE_FOR",
+      "source_chunk": "309"
+    },
+    {
+      "source": "302",
+      "target": "341",
+      "relation": "RE_FOR",
+      "source_chunk": "310"
+    },
+    {
+      "source": "302",
+      "target": "347",
+      "relation": "OF",
+      "source_chunk": "305"
+    },
+    {
+      "source": "302",
+      "target": "348",
+      "relation": "OF",
+      "source_chunk": "305"
+    },
+    {
+      "source": "302",
+      "target": "349",
+      "relation": "OF",
+      "source_chunk": "305"
+    },
+    {
+      "source": "302",
+      "target": "330",
+      "relation": "CONTAIN",
+      "source_chunk": "311"
+    },
+    {
+      "source": "302",
+      "target": "331",
+      "relation": "CONTAIN",
+      "source_chunk": "311"
+    },
+    {
+      "source": "302",
+      "target": "332",
+      "relation": "CONTAIN",
+      "source_chunk": "311"
+    },
+    {
+      "source": "303",
+      "target": "9",
+      "relation": "CONTAIN",
+      "source_chunk": "300"
+    },
+    {
+      "source": "303",
+      "target": "350",
+      "relation": "OF",
+      "source_chunk": "305"
+    },
+    {
+      "source": "303",
+      "target": "351",
+      "relation": "OF",
+      "source_chunk": "305"
+    },
+    {
+      "source": "304",
+      "target": "9",
+      "relation": "OF",
+      "source_chunk": "300"
+    },
+    {
+      "source": "304",
+      "target": "311",
+      "relation": "CONTAIN",
+      "source_chunk": "304"
+    },
+    {
+      "source": "304",
+      "target": "312",
+      "relation": "CONTAIN",
+      "source_chunk": "304"
+    },
+    {
+      "source": "304",
+      "target": "313",
+      "relation": "CONTAIN",
+      "source_chunk": "304"
+    },
+    {
+      "source": "304",
+      "target": "314",
+      "relation": "CONTAIN",
+      "source_chunk": "304"
+    },
+    {
+      "source": "304",
+      "target": "315",
+      "relation": "CONTAIN",
+      "source_chunk": "304"
+    },
+    {
+      "source": "304",
+      "target": "319",
+      "relation": "CONTAIN",
+      "source_chunk": "304"
+    },
+    {
+      "source": "304",
+      "target": "5",
+      "relation": "CONTAIN",
+      "source_chunk": "307"
+    },
+    {
+      "source": "304",
+      "target": "320",
+      "relation": "CONTAIN",
+      "source_chunk": "307"
+    },
+    {
+      "source": "304",
+      "target": "316",
+      "relation": "CONTAIN",
+      "source_chunk": "307"
+    },
+    {
+      "source": "304",
+      "target": "317",
+      "relation": "CONTAIN",
+      "source_chunk": "307"
+    },
+    {
+      "source": "304",
+      "target": "318",
+      "relation": "CONTAIN",
+      "source_chunk": "307"
+    },
+    {
+      "source": "304",
+      "target": "355",
+      "relation": "CONTAIN",
+      "source_chunk": "308"
+    },
+    {
+      "source": "304",
+      "target": "356",
+      "relation": "CONTAIN",
+      "source_chunk": "308"
+    },
+    {
+      "source": "304",
+      "target": "357",
+      "relation": "CONTAIN",
+      "source_chunk": "308"
+    },
+    {
+      "source": "304",
+      "target": "358",
+      "relation": "CONTAIN",
+      "source_chunk": "308"
+    },
+    {
+      "source": "305",
+      "target": "9",
+      "relation": "OF",
+      "source_chunk": "300"
+    },
+    {
+      "source": "305",
+      "target": "306",
+      "relation": "CONTAIN",
+      "source_chunk": "306"
+    },
+    {
+      "source": "305",
+      "target": "307",
+      "relation": "CONTAIN",
+      "source_chunk": "306"
+    },
+    {
+      "source": "305",
+      "target": "308",
+      "relation": "CONTAIN",
+      "source_chunk": "306"
+    },
+    {
+      "source": "305",
+      "target": "309",
+      "relation": "CONTAIN",
+      "source_chunk": "306"
+    },
+    {
+      "source": "310",
+      "target": "352",
+      "relation": "RE_FOR",
+      "source_chunk": "313"
+    },
+    {
+      "source": "310",
+      "target": "353",
+      "relation": "OF",
+      "source_chunk": "313"
+    },
+    {
+      "source": "310",
+      "target": "354",
+      "relation": "OF",
+      "source_chunk": "313"
+    },
+    {
+      "source": "328",
+      "target": "502",
+      "relation": "CONTAIN",
+      "source_chunk": "508"
+    },
+    {
+      "source": "401",
+      "target": "405",
+      "relation": "CI_OF",
+      "source_chunk": "401"
+    },
+    {
+      "source": "401",
+      "target": "11",
+      "relation": "CI_OF",
+      "source_chunk": "400"
+    },
+    {
+      "source": "401",
+      "target": "415",
+      "relation": "RE_FOR",
+      "source_chunk": "403"
+    },
+    {
+      "source": "401",
+      "target": "416",
+      "relation": "RE_FOR",
+      "source_chunk": "403"
+    },
+    {
+      "source": "401",
+      "target": "417",
+      "relation": "RE_FOR",
+      "source_chunk": "403"
+    },
+    {
+      "source": "402",
+      "target": "406",
+      "relation": "CI_OF",
+      "source_chunk": "401"
+    },
+    {
+      "source": "402",
+      "target": "11",
+      "relation": "CI_OF",
+      "source_chunk": "400"
+    },
+    {
+      "source": "402",
+      "target": "421",
+      "relation": "RE_FOR",
+      "source_chunk": "405"
+    },
+    {
+      "source": "402",
+      "target": "427",
+      "relation": "RE_FOR",
+      "source_chunk": "405"
+    },
+    {
+      "source": "402",
+      "target": "432",
+      "relation": "RE_FOR",
+      "source_chunk": "405"
+    },
+    {
+      "source": "402",
+      "target": "429",
+      "relation": "RE_FOR",
+      "source_chunk": "405"
+    },
+    {
+      "source": "402",
+      "target": "430",
+      "relation": "RE_FOR",
+      "source_chunk": "405"
+    },
+    {
+      "source": "402",
+      "target": "433",
+      "relation": "RE_FOR",
+      "source_chunk": "405"
+    },
+    {
+      "source": "403",
+      "target": "407",
+      "relation": "CI_OF",
+      "source_chunk": "401"
+    },
+    {
+      "source": "403",
+      "target": "408",
+      "relation": "CI_OF",
+      "source_chunk": "401"
+    },
+    {
+      "source": "403",
+      "target": "11",
+      "relation": "CI_OF",
+      "source_chunk": "400"
+    },
+    {
+      "source": "403",
+      "target": "421",
+      "relation": "RE_FOR",
+      "source_chunk": "404"
+    },
+    {
+      "source": "403",
+      "target": "422",
+      "relation": "RE_FOR",
+      "source_chunk": "404"
+    },
+    {
+      "source": "403",
+      "target": "423",
+      "relation": "RE_FOR",
+      "source_chunk": "404"
+    },
+    {
+      "source": "403",
+      "target": "424",
+      "relation": "RE_FOR",
+      "source_chunk": "404"
+    },
+    {
+      "source": "403",
+      "target": "425",
+      "relation": "RE_FOR",
+      "source_chunk": "404"
+    },
+    {
+      "source": "404",
+      "target": "11",
+      "relation": "OF",
+      "source_chunk": "400"
+    },
+    {
+      "source": "404",
+      "target": "409",
+      "relation": "CONTAIN",
+      "source_chunk": "402"
+    },
+    {
+      "source": "404",
+      "target": "410",
+      "relation": "CONTAIN",
+      "source_chunk": "402"
+    },
+    {
+      "source": "404",
+      "target": "411",
+      "relation": "CONTAIN",
+      "source_chunk": "402"
+    },
+    {
+      "source": "404",
+      "target": "412",
+      "relation": "CONTAIN",
+      "source_chunk": "402"
+    },
+    {
+      "source": "404",
+      "target": "413",
+      "relation": "CONTAIN",
+      "source_chunk": "402"
+    },
+    {
+      "source": "404",
+      "target": "414",
+      "relation": "CONTAIN",
+      "source_chunk": "402"
+    },
+    {
+      "source": "501",
+      "target": "10",
+      "relation": "CONTAIN",
+      "source_chunk": "501"
+    },
+    {
+      "source": "501",
+      "target": "519",
+      "relation": "OF",
+      "source_chunk": "503"
+    },
+    {
+      "source": "501",
+      "target": "520",
+      "relation": "OF",
+      "source_chunk": "503"
+    },
+    {
+      "source": "502",
+      "target": "10",
+      "relation": "CONTAIN",
+      "source_chunk": "501"
+    },
+    {
+      "source": "502",
+      "target": "508",
+      "relation": "CONTAIN",
+      "source_chunk": "508"
+    },
+    {
+      "source": "502",
+      "target": "509",
+      "relation": "CONTAIN",
+      "source_chunk": "508"
+    },
+    {
+      "source": "502",
+      "target": "510",
+      "relation": "CONTAIN",
+      "source_chunk": "508"
+    },
+    {
+      "source": "503",
+      "target": "10",
+      "relation": "CONTAIN",
+      "source_chunk": "501"
+    },
+    {
+      "source": "503",
+      "target": "521",
+      "relation": "OF",
+      "source_chunk": "504"
+    },
+    {
+      "source": "504",
+      "target": "10",
+      "relation": "CONTAIN",
+      "source_chunk": "501"
+    },
+    {
+      "source": "504",
+      "target": "511",
+      "relation": "CONTAIN",
+      "source_chunk": "509"
+    },
+    {
+      "source": "504",
+      "target": "512",
+      "relation": "CONTAIN",
+      "source_chunk": "509"
+    },
+    {
+      "source": "504",
+      "target": "513",
+      "relation": "CONTAIN",
+      "source_chunk": "509"
+    },
+    {
+      "source": "505",
+      "target": "10",
+      "relation": "CONTAIN",
+      "source_chunk": "506"
+    },
+    {
+      "source": "505",
+      "target": "514",
+      "relation": "CONTAIN",
+      "source_chunk": "506"
+    },
+    {
+      "source": "506",
+      "target": "10",
+      "relation": "CONTAIN",
+      "source_chunk": "507"
+    },
+    {
+      "source": "506",
+      "target": "515",
+      "relation": "CONTAIN",
+      "source_chunk": "507"
+    },
+    {
+      "source": "506",
+      "target": "516",
+      "relation": "CONTAIN",
+      "source_chunk": "507"
+    },
+    {
+      "source": "506",
+      "target": "517",
+      "relation": "CONTAIN",
+      "source_chunk": "507"
+    },
+    {
+      "source": "507",
+      "target": "10",
+      "relation": "CONTAIN",
+      "source_chunk": "505"
+    },
+    {
+      "source": "507",
+      "target": "518",
+      "relation": "CONTAIN",
+      "source_chunk": "505"
+    },
+    {
+      "source": "601",
+      "target": "13",
+      "relation": "CONTAIN",
+      "source_chunk": "600"
+    },
+    {
+      "source": "601",
+      "target": "15",
+      "relation": "CONTAIN",
+      "source_chunk": "601"
+    },
+    {
+      "source": "601",
+      "target": "16",
+      "relation": "CONTAIN",
+      "source_chunk": "601"
+    },
+    {
+      "source": "601",
+      "target": "17",
+      "relation": "CONTAIN",
+      "source_chunk": "601"
+    },
+    {
+      "source": "601",
+      "target": "608",
+      "relation": "CONTAIN",
+      "source_chunk": "601"
+    },
+    {
+      "source": "601",
+      "target": "609",
+      "relation": "CONTAIN",
+      "source_chunk": "601"
+    },
+    {
+      "source": "602",
+      "target": "13",
+      "relation": "CONTAIN",
+      "source_chunk": "600"
+    },
+    {
+      "source": "603",
+      "target": "13",
+      "relation": "CONTAIN",
+      "source_chunk": "600"
+    },
+    {
+      "source": "604",
+      "target": "13",
+      "relation": "CONTAIN",
+      "source_chunk": "604"
+    },
+    {
+      "source": "604",
+      "target": "619",
+      "relation": "RE_FOR",
+      "source_chunk": "604"
+    },
+    {
+      "source": "604",
+      "target": "620",
+      "relation": "RE_FOR",
+      "source_chunk": "604"
+    },
+    {
+      "source": "604",
+      "target": "621",
+      "relation": "RE_FOR",
+      "source_chunk": "604"
+    },
+    {
+      "source": "604",
+      "target": "622",
+      "relation": "RE_FOR",
+      "source_chunk": "604"
+    },
+    {
+      "source": "605",
+      "target": "13",
+      "relation": "CONTAIN",
+      "source_chunk": "600"
+    },
+    {
+      "source": "605",
+      "target": "610",
+      "relation": "CONTAIN",
+      "source_chunk": "602"
+    },
+    {
+      "source": "605",
+      "target": "611",
+      "relation": "CONTAIN",
+      "source_chunk": "602"
+    },
+    {
+      "source": "605",
+      "target": "612",
+      "relation": "CONTAIN",
+      "source_chunk": "602"
+    },
+    {
+      "source": "606",
+      "target": "13",
+      "relation": "CONTAIN",
+      "source_chunk": "600"
+    },
+    {
+      "source": "606",
+      "target": "613",
+      "relation": "CONTAIN",
+      "source_chunk": "602"
+    },
+    {
+      "source": "606",
+      "target": "614",
+      "relation": "CONTAIN",
+      "source_chunk": "602"
+    },
+    {
+      "source": "606",
+      "target": "615",
+      "relation": "CONTAIN",
+      "source_chunk": "602"
+    },
+    {
+      "source": "606",
+      "target": "616",
+      "relation": "CONTAIN",
+      "source_chunk": "602"
+    },
+    {
+      "source": "607",
+      "target": "13",
+      "relation": "CONTAIN",
+      "source_chunk": "600"
+    },
+    {
+      "source": "607",
+      "target": "617",
+      "relation": "RE_FOR",
+      "source_chunk": "602"
+    },
+    {
+      "source": "607",
+      "target": "618",
+      "relation": "RE_FOR",
+      "source_chunk": "602"
+    },
+    {
+      "source": "701",
+      "target": "12",
+      "relation": "CONTAIN",
+      "source_chunk": "702"
+    },
+    {
+      "source": "701",
+      "target": "704",
+      "relation": "CONTAIN",
+      "source_chunk": "703"
+    },
+    {
+      "source": "701",
+      "target": "705",
+      "relation": "CONTAIN",
+      "source_chunk": "703"
+    },
+    {
+      "source": "701",
+      "target": "706",
+      "relation": "CONTAIN",
+      "source_chunk": "703"
+    },
+    {
+      "source": "701",
+      "target": "707",
+      "relation": "CONTAIN",
+      "source_chunk": "703"
+    },
+    {
+      "source": "702",
+      "target": "12",
+      "relation": "CONTAIN",
+      "source_chunk": "702"
+    },
+    {
+      "source": "702",
+      "target": "708",
+      "relation": "CONTAIN",
+      "source_chunk": "704"
+    },
+    {
+      "source": "702",
+      "target": "709",
+      "relation": "CONTAIN",
+      "source_chunk": "704"
+    },
+    {
+      "source": "702",
+      "target": "710",
+      "relation": "CONTAIN",
+      "source_chunk": "704"
+    },
+    {
+      "source": "702",
+      "target": "711",
+      "relation": "CONTAIN",
+      "source_chunk": "704"
+    },
+    {
+      "source": "702",
+      "target": "712",
+      "relation": "OF",
+      "source_chunk": "704"
+    },
+    {
+      "source": "703",
+      "target": "12",
+      "relation": "CONTAIN",
+      "source_chunk": "702"
+    },
+    {
+      "source": "703",
+      "target": "722",
+      "relation": "OF",
+      "source_chunk": "706"
+    },
+    {
+      "source": "703",
+      "target": "723",
+      "relation": "OF",
+      "source_chunk": "706"
+    },
+    {
+      "source": "703",
+      "target": "724",
+      "relation": "OF",
+      "source_chunk": "706"
+    },
+    {
+      "source": "1",
+      "target": "3",
+      "relation": "CI_OF",
+      "source_chunk": "201"
+    },
+    {
+      "source": "1",
+      "target": "4",
+      "relation": "CI_OF",
+      "source_chunk": "201"
+    },
+    {
+      "source": "1",
+      "target": "5",
+      "relation": "CI_OF",
+      "source_chunk": "201"
+    },
+    {
+      "source": "1",
+      "target": "6",
+      "relation": "FA_OF",
+      "source_chunk": "202"
+    },
+    {
+      "source": "1",
+      "target": "7",
+      "relation": "FA_OF",
+      "source_chunk": "202"
+    },
+    {
+      "source": "1",
+      "target": "2",
+      "relation": "FA_OF",
+      "source_chunk": "202"
+    },
+    {
+      "source": "1",
+      "target": "8",
+      "relation": "FA_OF",
+      "source_chunk": "202"
+    },
+    {
+      "source": "3",
+      "target": "214",
+      "relation": "CI_OF",
+      "source_chunk": "201"
+    },
+    {
+      "source": "4",
+      "target": "215",
+      "relation": "CI_OF",
+      "source_chunk": "201"
+    },
+    {
+      "source": "5",
+      "target": "216",
+      "relation": "CI_OF",
+      "source_chunk": "201"
+    },
+    {
+      "source": "5",
+      "target": "217",
+      "relation": "RE_FOR",
+      "source_chunk": "204"
+    },
+    {
+      "source": "9",
+      "target": "336",
+      "relation": "OF",
+      "source_chunk": "312"
+    },
+    {
+      "source": "9",
+      "target": "337",
+      "relation": "OF",
+      "source_chunk": "301"
+    },
+    {
+      "source": "10",
+      "target": "522",
+      "relation": "RE_FOR",
+      "source_chunk": "502"
+    },
+    {
+      "source": "12",
+      "target": "14",
+      "relation": "CONTAIN",
+      "source_chunk": "705"
+    },
+    {
+      "source": "13",
+      "target": "14",
+      "relation": "CONTAIN",
+      "source_chunk": "600"
+    },
+    {
+      "source": "14",
+      "target": "713",
+      "relation": "OF",
+      "source_chunk": "705"
+    },
+    {
+      "source": "14",
+      "target": "715",
+      "relation": "OF",
+      "source_chunk": "701"
+    },
+    {
+      "source": "14",
+      "target": "725",
+      "relation": "OF",
+      "source_chunk": "707"
+    },
+    {
+      "source": "14",
+      "target": "726",
+      "relation": "OF",
+      "source_chunk": "707"
+    },
+    {
+      "source": "417",
+      "target": "418",
+      "relation": "CONTAIN",
+      "source_chunk": "403"
+    },
+    {
+      "source": "417",
+      "target": "419",
+      "relation": "CONTAIN",
+      "source_chunk": "403"
+    },
+    {
+      "source": "417",
+      "target": "420",
+      "relation": "CONTAIN",
+      "source_chunk": "403"
+    },
+    {
+      "source": "434",
+      "target": "432",
+      "relation": "CONTAIN",
+      "source_chunk": "405"
+    },
+    {
+      "source": "435",
+      "target": "432",
+      "relation": "CONTAIN",
+      "source_chunk": "405"
+    },
+    {
+      "source": "622",
+      "target": "623",
+      "relation": "CONTAIN",
+      "source_chunk": "604"
+    },
+    {
+      "source": "622",
+      "target": "624",
+      "relation": "CONTAIN",
+      "source_chunk": "604"
+    },
+    {
+      "source": "622",
+      "target": "625",
+      "relation": "CONTAIN",
+      "source_chunk": "604"
+    },
+    {
+      "source": "622",
+      "target": "626",
+      "relation": "CONTAIN",
+      "source_chunk": "604"
+    },
+    {
+      "source": "622",
+      "target": "627",
+      "relation": "CONTAIN",
+      "source_chunk": "604"
+    },
+    {
+      "source": "622",
+      "target": "628",
+      "relation": "CONTAIN",
+      "source_chunk": "604"
+    },
+    {
+      "source": "622",
+      "target": "629",
+      "relation": "CONTAIN",
+      "source_chunk": "604"
+    },
+    {
+      "source": "622",
+      "target": "630",
+      "relation": "CONTAIN",
+      "source_chunk": "604"
+    },
+    {
+      "source": "622",
+      "target": "631",
+      "relation": "CONTAIN",
+      "source_chunk": "604"
+    },
+    {
+      "source": "715",
+      "target": "716",
+      "relation": "CONTAIN",
+      "source_chunk": "701"
+    },
+    {
+      "source": "715",
+      "target": "717",
+      "relation": "CONTAIN",
+      "source_chunk": "701"
+    },
+    {
+      "source": "715",
+      "target": "718",
+      "relation": "CONTAIN",
+      "source_chunk": "701"
+    },
+    {
+      "source": "715",
+      "target": "719",
+      "relation": "CONTAIN",
+      "source_chunk": "701"
+    },
+    {
+      "source": "715",
+      "target": "720",
+      "relation": "CONTAIN",
+      "source_chunk": "701"
+    },
+    {
+      "source": "715",
+      "target": "721",
+      "relation": "CONTAIN",
+      "source_chunk": "701"
+    }
+  ],
+  "metrics": {
+    "node_count": 228,
+    "edge_count": 228,
+    "density": 0.00881057268722467
+  }
+}

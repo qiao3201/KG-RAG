@@ -1,0 +1,8 @@
+{
+  "kg_data_path": "knowledge_graph_data.json",
+  "vectors_path": "medical_kg_vectors.json",
+  "chunks_path": "knowledge_chunks.json",
+  "k_entities": 8,
+  "model_name": "Qwen/Qwen3-4B-Instruct-2507",
+  "embedding_model": "BAAI/bge-m3"
+}
